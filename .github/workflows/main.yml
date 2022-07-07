@@ -33,4 +33,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           npm install -D @playwright/test
+          npx playwright install 
           npx playwright test
